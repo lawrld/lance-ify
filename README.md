@@ -36,6 +36,14 @@ CLIENT_ID = 'your_client_id'
 CLIENT_SECRET = 'your_client_secret'
 REDIRECT_URI = 'http://localhost:8888/callback'
 ```
+## Testing
+
+This is a screenshot of one of the tests I have run with this script using a Spotify account:
+
+```
+![Screenshot 2024-06-16 155013](https://github.com/lawrld/lance-ify/assets/138424042/047c7880-4d11-430a-a365-b39df038c042)
+
+```
 
 ## Closing Remarks 
 
