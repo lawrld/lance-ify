@@ -19,7 +19,7 @@ def main():
     results = sp.current_user_top_artists(limit=5, time_range='short_term')
     top_artists = results['items']
     
-    print("Your Top 5 Artists of the Past Month:")
+    print("Your Top Artists of the Past Month:")
     for idx, artist in enumerate(top_artists):
         print(f"{idx+1}. {artist['name']}")
 
@@ -49,9 +49,9 @@ def main():
             latest_project = albums['items'][0]
             project_name = latest_project['name']
             release_date = latest_project['release_date']
-            print(f"{artist_name}'s latest project: {project_name} (Released on {release_date})")
+            print(f"\n{artist_name}'s latest project: {project_name} (Released on {release_date})")
         else:
-            print(f"{artist_name} has no available projects.")
+            print(f"\n{artist_name} has no available projects.")
 
 if __name__ == '__main__':
     main()
