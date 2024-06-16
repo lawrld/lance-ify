@@ -41,10 +41,11 @@ REDIRECT_URI = 'http://localhost:8888/callback'
 This is a screenshot of one of the tests I have run with this script using a Spotify account:
 
 ```
-![Screenshot 2024-06-16 155013](https://github.com/lawrld/lance-ify/assets/138424042/047c7880-4d11-430a-a365-b39df038c042)
+![Screenshot 2024-06-16 162516](https://github.com/lawrld/lance-ify/assets/138424042/d4108139-414b-489c-b70c-bc9031d3ad6e)
 
 ```
 
-## Closing Remarks 
+## Closing Remarks
+
 
 And that should be it! I apologize for not making an easier way for the user to do this. If I had time, I could have potentially built a front end that takes a username as input and returns the results. I will eventually go back and do something like that. In any case, if you do not wish to create a Spotify Dev account, I will include the results from my own testing within this repo. I want to thank the crew for running a great program this summer. It was good to dig deep into Python and discover some features I may have been missing out on.
